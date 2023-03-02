@@ -14,7 +14,7 @@ def test_all_pets_have_different_names(go_to_my_pets):
 
    # Настраиваем неявные ожидания:
    pytest.driver.implicitly_wait(10)
-
+ 
    # Проверяем, что у всех питомцев разные имена:
    list_name_my_pets = []
    for i in range(len(name_my_pets)):
