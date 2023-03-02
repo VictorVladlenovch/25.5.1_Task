@@ -37,4 +37,4 @@ def test_show_pet_friends():
 
 # python -m pytest -v --driver Chrome --driver-path /tests/chromedriver.exe tests/test_show_pet_friends.py
 
-# Тест упал, не все карточки питомца имеют фото (отсутствует атрибут 'src')
+# не все карточки питомца имеют фото (отсутствует атрибут 'src')
