@@ -1,5 +1,3 @@
-
-
 import pytest
 from settings import valid_email, valid_password
 from selenium.webdriver.common.by import By
